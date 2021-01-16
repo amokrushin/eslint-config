@@ -1,0 +1,39 @@
+{
+  "name": "@amokrushin/eslint-config",
+  "version": "1.0.0-alpha.1",
+  "description": "",
+  "homepage": "https://github.com/amokrushin/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/amokrushin/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amokrushin/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "Anton Mokrushin <anton@mokr.org>",
+  "main": "base.js",
+  "scripts": {
+    "lint": "eslint base.js rules/",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "2.22.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7",
+    "@babel/eslint-parser": "^7",
+    "@babel/preset-env": "^7",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "2.22.1"
+  },
+  "engines": {
+    "node": ">= 12"
+  }
+}
